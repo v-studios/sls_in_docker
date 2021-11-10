@@ -2,9 +2,10 @@
  README: Serverless Functions built/deployed by Docker
 =======================================================
 
-We want to rebuild ImageResizer as a serverless app using AWS Lambda
-and API Gateway. We will use the Serverless Framework to package and
-deploy our app to AWS. Our CI/CD system, Bamboo-gc, doesn't have
+We want to rebuild one of our services (currently implemented as a set
+of Docker Compose containers) as a serverless app using AWS Lambda and
+API Gateway. We will use the Serverless Framework to package and
+deploy our app to AWS. Our CI/CD system, Bamboo-6.5.1, doesn't have
 nodejs on it so we cannot run serverless framework directly in Bamboo.
 
 Our workaround is to build/package using Serverless Framework running
